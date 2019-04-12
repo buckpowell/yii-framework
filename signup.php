@@ -22,30 +22,10 @@ $this->params['breadcrumbs'][] = $this->title;
 			</div>
 		<div class="col-lg-5">
 			<?= $form->field($model, 'last_name') ?>
-			<?= $form->field($model, 'address') ?>
 			
 		</div>
 		<div class="col-lg-5">
-			<?= $form->field($model, 'suffix') ?>
-			<?= $form->field($model, 'city') ?>
-		</div>
-		<div class="col-lg-5">
-			<?= $form->field($model, 'us_state') ?>
-			<label for=""> Phone</label><?= $form->field($model,'phone')->input('phone',['placeholder' => "Enter Phone (123) 456-7890",'class' => 'form-control'])->label(false)?>    
-			
-		</div>
-		<div class="col-lg-5">
-			<?= $form->field($model, 'zip') ?>
-			<?= $form->field($model, 'business_phone') ?>
-			
-		</div>
-		<div class="col-lg-5">
-			<?= $form->field($model, 'email') ?>
-			<label for=""> SSN</label><?= $form->field($model, 'ssn')->input('dob',['placeholder' => "Enter SSN (XXX-XX-XXXX)",'class' => 'form-control'])->label(false) ?>
-		</div>
-		<div class="col-lg-5">
-		<label for=""> Birth Date</label><?= $form->field($model,'dob')->input('dob',['placeholder' => "Enter Date of Birth (MM/DD/YYYY)",'class' => 'form-control'])->label(false)?>    
-        <?= $form->field($model, 'dep') ?>
+		<?= $form->field($model, 'suffix') ?>
 		</div>
 	</div>
                 <div class="form-group">

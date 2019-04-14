@@ -81,4 +81,5 @@ class Account extends \yii\db\ActiveRecord
 
         ];
     }
+
 }
